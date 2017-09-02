@@ -1,0 +1,1 @@
+rvm use $(rvm use default do ruby -e "puts RUBY_VERSION")@${PWD##*/} --create
