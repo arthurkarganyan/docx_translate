@@ -42,7 +42,10 @@ class Main
 
   def start
     progress_bar = ProgressBar.create(title: 'Progress', total: files.flat_map(&:paragraphs).size)
-	#binding.pry
+    if files.empty?
+      puts "No files .docx found"
+      return
+    end
     puts "Files to translate:"
     puts file_names
     files.each do |file|
