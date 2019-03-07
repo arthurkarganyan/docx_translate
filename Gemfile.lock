@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:arthurkarganyan/ask_and_store.git
+  remote: https://github.com/arthurkarganyan/ask_and_store
   revision: ec8a54eaa8e4ad04688015504e4d1b2e2f958104
   specs:
     ask_and_store (0.1.0)
