@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'docx'
 gem 'pry'
 gem 'pry-nav'
-gem 'ruby-progressbar'
-gem 'capybara'
-gem 'capybara-webkit'
-gem 'selenium-webdriver', '~> 2.45.0'
+
+gem "google-cloud-translate", "~> 1.3"
+gem "ask_and_store", git: "git@github.com:arthurkarganyan/ask_and_store.git"
